@@ -29,6 +29,8 @@
   },
   "dependencies": {
     "@prisma/client": "5.5.2",
+    "@types/bcryptjs": "2.4.6",
+    "bcryptjs": "2.4.3",
     "dotenv": "16.3.1",
     "fastify": "^4.24.3",
     "zod": "3.22.4"
