@@ -27,7 +27,7 @@ export default <Environment>{
 
     process.env.DATABASE_URL = databaseURL;
 
-    execSync("npx prisma migrate deploy");
+    execSync("npx yarn prisma migrate deploy");
 
     return {
       async teardown() {
