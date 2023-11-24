@@ -3,5 +3,3 @@ build
 
 .env
 coverage
-
-prisma/vitest-environment-prisma
