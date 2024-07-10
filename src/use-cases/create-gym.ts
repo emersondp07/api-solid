@@ -12,6 +12,7 @@ interface CreateGymUseCaseRequest {
 // SOLID
 
 // D - Dependency Inversion Principle
+// teste
 
 interface CreateGymUseCaseResponse {
   gym: Gym;
